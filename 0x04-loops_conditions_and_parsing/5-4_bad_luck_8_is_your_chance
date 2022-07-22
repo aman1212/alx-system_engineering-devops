@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script for displaying "Holberton School" 10 times
+# script for displaying "Best School" 10 times
 i=1
 while [ $i -le 10 ]
 do
@@ -10,7 +10,7 @@ elif [ $i -eq 8 ]
 then
 echo "good luck"
 else
-echo "Holberton School"
+echo "Best School"
 fi
 ((i++))
 done

@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-#This script prints a string to the STDOUT
-
-num=1
-until [ $num -gt 10 ]
+# This script displays "Best School" 10 times
+x="Best School"
+until (( i > 9 ))
 do
-	echo "Best School"
-	num=$(( num+1 ))
+    echo "$x"
+    ((i = i + 1))
 done
