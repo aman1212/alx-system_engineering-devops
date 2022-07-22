@@ -5,10 +5,10 @@ while [ $i -le 10 ]
 do
 if [ $i -eq 9 ]
 then
-echo "Holberton School"
+echo "Best School"
 echo "Hi"
 else
-echo "Holberton School"
+echo "Best School"
 fi
 ((i++))
 done
